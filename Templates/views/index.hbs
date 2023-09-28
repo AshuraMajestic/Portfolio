@@ -1,0 +1,207 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../style/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div class="container container-fluid">
+      {{! First section }}
+      <div class="row center main">
+        <div class="heading">
+          <h1>ASHURA</h1>
+          <h1>MAJESTIC</h1>
+          <h4>FULL STACK WEB DEVELOPER</h4>
+        </div>
+      </div>
+      {{! second section }}
+      <section class="row main">
+        <div class="second">
+          <h3>About me</h3>
+          <p>
+            I'm Ashura Majestic, a seasoned full-stack web developer with an
+            impressive portfolio. I've created a range of websites, including
+            dynamic quotes, contact-me, Ekart e-commerce, workout buddy, and
+            weather platforms—all integrated with APIs.
+            <br />
+            I excel at transforming concepts into engaging and functional web
+            solutions. If you're ready to bring your digital vision to life, I'm
+            here to make it happen!
+          </p>
+        </div>
+      </section>
+      {{! Third section }}
+      <section class="row main">
+        <div class="third">
+          <h3>My Background</h3>
+          <div class="row">
+            <div class="col-6">
+              <ul>
+                <li class="head">Front end
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>HandleBars</li>
+                    <li>Sass(SCSS)</li>
+                  </ul>
+                </li>
+                <li class="head">FrameWork
+                  <ul>
+                    <li>Bootstrap</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li class="head">Version Control
+                  <ul>
+                    <li>Git & Github</li>
+                  </ul>
+                </li>
+                <li class="head">Back end
+                  <ul>
+                    <li>Nodejs</li>
+                    <li>ExpressJs</li>
+                    <li>MongoDB</li>
+                    <li>Mongoose</li>
+                    <li>Nextjs</li>
+                  </ul>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {{! My projects section }}
+      <section class="row main">
+        <div class="fourth col-12">
+          <h3>My Projects</h3>
+          <div class="row right">
+            <figure class="figure col-6 p-5">
+              <img
+                src="img/1.png"
+                class="figure-img img-fluid rounded"
+                alt="Yoga website"
+              />
+            </figure>
+            <figure class="figure col-6 p-5">
+              <img
+                src="img/2.png"
+                class="figure-img img-fluid rounded"
+                alt="EkartWebsite"
+              />
+            </figure>
+            <figure class="figure col-6 p-5">
+              <img
+                src="img/3.png"
+                class="figure-img img-fluid rounded"
+                alt="weather website"
+              />
+            </figure>
+            <figure class="figure col-6 p-5">
+              <img
+                src="img/4.png"
+                class="figure-img img-fluid rounded"
+                alt="Contacge me website"
+              />
+            </figure>
+            <figure class="figure love">
+              <img
+                src="img/5.png"
+                class="figure-img img-fluid rounded"
+                alt="Love calculator website"
+              />
+            </figure>
+          </div>
+          <div class="links">
+            <h3>Links</h3>
+            <ul>
+              <li><a
+                  href="https://workout-buddy-d5iv.onrender.com"
+                  target="_blank"
+                >https://workout-buddy-d5iv.onrender.com</a></li>
+              <li><a
+                  href="https://ekart-i3i1.onrender.com"
+                  target="_blank"
+                >https://ekart-i3i1.onrender.com</a></li>
+              <li><a
+                  href="https://weather-with-ashura.onrender.com"
+                  target="_blank"
+                >https://weather-with-ashura.onrender.com</a></li>
+              <li><a
+                  href="https://contact-me-page.onrender.com"
+                  target="_blank"
+                >https://contact-me-page.onrender.com</a></li>
+              <li><a
+                  href="https://lovecalculator-mzln.onrender.com"
+                  target="_blank"
+                >https://lovecalculator-mzln.onrender.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      {{! Contact Me section }}
+      <section class="row main">
+        <div class="contact col-12">
+          <h3>Reach out to me</h3>
+          <div class="row">
+            <div class="col-6 left">
+              <div class="line"></div>
+              <div class="address">
+                <h4>Address</h4>
+                <p>Gandhinagar, Gujarat</p>
+              </div>
+              <div class="mail">
+                <h4>Mail</h4>
+                <p>ashuramajestic@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <form
+                action="/message"
+                class="right center row my-5"
+                method="POST"
+              >
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="col-8"
+                  placeholder="enter your name"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  id="mail"
+                  class="col-8"
+                  placeholder="enter your email"
+                />
+                <input
+                  type="number"
+                  class="col-8"
+                  name="phone"
+                  id="number"
+                  placeholder="enter your number"
+                />
+                <div class="col-12 center">
+                  <button type="submit">I will Contact You</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.bundle.min.js" type="text/javascript"></script>
+  </body>
+
+</html>

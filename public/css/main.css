@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.cdnfonts.com/css/seasons");
+@import url("https://fonts.cdnfonts.com/css/tt-hoves-pro-trial");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #000000;
+  color: white;
+}
+
+.center {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.row.main {
+  min-height: 100vh;
+}
+.row.main .heading h1 {
+  font-family: "Megrim", "Helvetica Neue";
+  font-size: 6rem;
+  text-align: center;
+}
+.row.main .heading h1:nth-child(2) {
+  margin-top: -1.5rem;
+}
+.row.main .heading h4 {
+  font-family: "Josefin Sans", "Helvetica Neue";
+  text-align: center;
+  margin-top: -1rem;
+}
+.row.main .second {
+  margin-top: 6rem;
+}
+.row.main .second h3 {
+  font-size: 5.5rem;
+  font-family: "seasons";
+  margin-bottom: 6rem;
+}
+.row.main .second p {
+  font-size: 1.2rem;
+  font-family: "TT Hoves Pro Trial", sans-serif;
+}
+.row.main .third {
+  margin-top: 2rem;
+}
+.row.main .third h3 {
+  font-size: 5.5rem;
+  font-family: "seasons";
+  margin-bottom: 6rem;
+}
+.row.main .third ul {
+  list-style-image: url("../img/a.png");
+  font-family: "TT Hoves Pro Trial", sans-serif;
+}
+.row.main .third ul li.head {
+  font-size: 1.6rem;
+}
+.row.main .third ul li.head ul {
+  color: #868686;
+  list-style: none;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+.row.main .fourth {
+  overflow-y: hidden;
+  margin-top: 2rem;
+}
+.row.main .fourth h3 {
+  font-size: 5.5rem;
+  font-family: "seasons";
+  margin-bottom: 2rem;
+}
+.row.main .fourth .right {
+  position: relative;
+}
+.row.main .fourth .right figure.love {
+  height: 50%;
+  width: 50%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: absolute;
+}
+.row.main .fourth .links ul {
+  list-style: none;
+}
+.row.main .fourth .links ul li {
+  margin: 0.5rem 0rem;
+}
+.row.main .fourth .links ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "seasons";
+  font-size: 1.6rem;
+}
+.row.main .contact {
+  overflow-y: hidden;
+  margin-top: 2rem;
+}
+.row.main .contact h3 {
+  font-size: 5.5rem;
+  font-family: "seasons";
+  margin-bottom: 2rem;
+}
+.row.main .contact .left {
+  position: relative;
+  font-family: "TT Hoves Pro Trial", sans-serif;
+}
+.row.main .contact .left .line {
+  height: 100%;
+  width: 0.2rem;
+  background-color: white;
+  position: absolute;
+  right: 10%;
+  border-radius: 1rem;
+}
+.row.main .contact .left div.address {
+  margin-top: 8rem;
+}
+.row.main .contact .left div.mail {
+  margin-top: 2rem;
+}
+.row.main .contact .left div h3 {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.row.main .contact .left div p {
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+.row.main .contact .right input,
+.row.main .contact .right button {
+  color: #000000;
+  background: linear-gradient(90deg, #a6a6a6, #ffffff);
+  margin-top: 1rem;
+  width: 20rem;
+  text-align: center;
+  height: 3rem;
+  font-family: "seasons";
+  font-weight: bolder;
+  border: none;
+  border-radius: 2rem;
+}
+.row.main .contact .right button {
+  margin-top: 3rem;
+  width: 15rem;
+}/*# sourceMappingURL=main.css.map */
