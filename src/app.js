@@ -1,6 +1,6 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
-require('dotenv').config();
 const port = process.env.PORT || 2803;
 const path = require("path");
 require('./db/conn');
@@ -28,6 +28,7 @@ app.use(express.static(staticPath));
 app.set("view engine", "hbs");
 app.set("views", templatePath);
 hbs.registerPartials(partialsPath);
+
 
 //Routing
 app.get("/", (req, res) => {
