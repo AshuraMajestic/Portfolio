@@ -162,14 +162,14 @@ body {
   width: 15rem;
 }
 
- @media only screen and (max-width:980px) {
-  .row{
+@media only screen and (max-width: 980px) {
+  .row {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .row.main div h3,
-  .row.main div p{
+  .row.main div p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,15 +182,22 @@ body {
     position: absolute;
     bottom: 0%;
     border-radius: 1rem;
-  }  
+  }
+  .row.main .second p {
+    padding: 0rem 2rem;
+  }
+  .row.main .third h3 {
+    font-size: 4.5rem;
+  }
+  .row.main .fourth .right figure.love {
+    all: revert;
+  }
   .main .contact .address,
-  .main .contact .mail{
+  .main .contact .mail {
     text-align: center;
   }
   .main .contact .address h4,
-  .main .contact .mail h4{
+  .main .contact .mail h4 {
     text-decoration: underline;
   }
- }
-
-
+}
