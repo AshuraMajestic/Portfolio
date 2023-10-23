@@ -168,6 +168,12 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .row.main .heading {
+    padding: 0rem 2rem;
+  }
+  .row.main .heading h1 {
+    font-size: 5.5rem;
+  }
   .row.main div h3,
   .row.main div p {
     display: flex;
