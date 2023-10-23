@@ -6,10 +6,12 @@
     <title>Home</title>
     <link rel="stylesheet" href="../style/bootstrap.min.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
-  <body>
-    <div class="container container-fluid">
+  <body class="center">
+    <div class="container container-fluid center">
+
       {{! First section }}
       <div class="row center main">
         <div class="heading">
@@ -21,8 +23,8 @@
       {{! second section }}
       <section class="row main">
         <div class="second">
-          <h3>About me</h3>
-          <p>
+          <h3 data-aos="fade-up">About me</h3>
+          <p data-aos="fade-up">
             I'm Ashura Majestic, a seasoned full-stack web developer with an
             impressive portfolio. I've created a range of websites, including
             dynamic quotes, contact-me, Ekart e-commerce, workout buddy, and
@@ -37,40 +39,40 @@
       {{! Third section }}
       <section class="row main">
         <div class="third">
-          <h3>My Background</h3>
+          <h3 data-aos="fade-up">My Background</h3>
           <div class="row">
-            <div class="col-6">
+            <div class="col-6" data-aos="fade-right">
               <ul>
                 <li class="head">Front end
                   <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>HandleBars</li>
-                    <li>Sass(SCSS)</li>
+                    <li data-aos="fade-right">HTML</li>
+                    <li data-aos="fade-right">CSS</li>
+                    <li data-aos="fade-right">JavaScript</li>
+                    <li data-aos="fade-right">HandleBars</li>
+                    <li data-aos="fade-right">Sass(SCSS)</li>
                   </ul>
                 </li>
-                <li class="head">FrameWork
+                <li class="head" data-aos="fade-right">FrameWork
                   <ul>
-                    <li>Bootstrap</li>
+                    <li data-aos="fade-right">Bootstrap</li>
                   </ul>
                 </li>
               </ul>
             </div>
             <div class="col-6">
               <ul>
-                <li class="head">Version Control
+                <li class="head" data-aos="fade-left">Version Control
                   <ul>
-                    <li>Git & Github</li>
+                    <li data-aos="fade-left">Git & Github</li>
                   </ul>
                 </li>
-                <li class="head">Back end
+                <li class="head" data-aos="fade-left">Back end
                   <ul>
-                    <li>Nodejs</li>
-                    <li>ExpressJs</li>
-                    <li>MongoDB</li>
-                    <li>Mongoose</li>
-                    <li>Nextjs</li>
+                    <li data-aos="fade-left">Nodejs</li>
+                    <li data-aos="fade-left">ExpressJs</li>
+                    <li data-aos="fade-left">MongoDB</li>
+                    <li data-aos="fade-left">Mongoose</li>
+                    <li data-aos="fade-left">Nextjs</li>
                   </ul>
                 </li>
 
@@ -83,37 +85,37 @@
       {{! My projects section }}
       <section class="row main">
         <div class="fourth col-12">
-          <h3>My Projects</h3>
+          <h3 data-aos="fade-up">My Projects</h3>
           <div class="row right">
-            <figure class="figure col-6 p-5">
+            <figure class="figure col-6 p-5" data-aos="fade-right">
               <img
                 src="img/1.png"
                 class="figure-img img-fluid rounded"
                 alt="Yoga website"
               />
             </figure>
-            <figure class="figure col-6 p-5">
+            <figure class="figure col-6 p-5" data-aos="fade-left">
               <img
                 src="img/2.png"
                 class="figure-img img-fluid rounded"
                 alt="EkartWebsite"
               />
             </figure>
-            <figure class="figure col-6 p-5">
+            <figure class="figure col-6 p-5" data-aos="fade-right">
               <img
                 src="img/3.png"
                 class="figure-img img-fluid rounded"
                 alt="weather website"
               />
             </figure>
-            <figure class="figure col-6 p-5">
+            <figure class="figure col-6 p-5" data-aos="fade-right">
               <img
                 src="img/4.png"
                 class="figure-img img-fluid rounded"
                 alt="Contacge me website"
               />
             </figure>
-            <figure class="figure love">
+            <figure class="figure love" data-aos="fade-up">
               <img
                 src="img/5.png"
                 class="figure-img img-fluid rounded"
@@ -122,25 +124,25 @@
             </figure>
           </div>
           <div class="links">
-            <h3>Links</h3>
+            <h3 data-aos="fade-up">Links</h3>
             <ul>
-              <li><a
+              <li data-aos="fade-right"><a
                   href="https://workout-buddy-d5iv.onrender.com"
                   target="_blank"
                 >https://workout-buddy-d5iv.onrender.com</a></li>
-              <li><a
+              <li data-aos="fade-right"><a
                   href="https://ekart-i3i1.onrender.com"
                   target="_blank"
                 >https://ekart-i3i1.onrender.com</a></li>
-              <li><a
+              <li data-aos="fade-right"><a
                   href="https://weather-with-ashura.onrender.com"
                   target="_blank"
                 >https://weather-with-ashura.onrender.com</a></li>
-              <li><a
+              <li data-aos="fade-right"><a
                   href="https://contact-me-page.onrender.com"
                   target="_blank"
                 >https://contact-me-page.onrender.com</a></li>
-              <li><a
+              <li data-aos="fade-right"><a
                   href="https://lovecalculator-mzln.onrender.com"
                   target="_blank"
                 >https://lovecalculator-mzln.onrender.com</a></li>
@@ -151,9 +153,9 @@
       {{! Contact Me section }}
       <section class="row main">
         <div class="contact col-12">
-          <h3>Reach out to me</h3>
+          <h3 data-aos="fade-up">Reach out to me</h3>
           <div class="row">
-            <div class="col-6 left">
+            <div class="col-12 col-lg-6 left col-md-12" data-aos="fade-right">
               <div class="line"></div>
               <div class="address">
                 <h4>Address</h4>
@@ -164,7 +166,7 @@
                 <p>ashuramajestic@gmail.com</p>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6 col-md-12" data-aos="fade-left">
               <form
                 action="/message"
                 class="right center row my-5"
@@ -200,6 +202,14 @@
         </div>
       </section>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      $(window).on('load', function(){ $('.pyramid-loader').fadeOut(1000);
+      $('.row.main').fadeIn(1000); })
+    </script>
+    <script>
+      AOS.init({ offset:200, duration:900, });
+    </script>
     <script src="../jq/jquery.js" type="text/javascript"></script>
     <script src="../js/bootstrap.bundle.min.js" type="text/javascript"></script>
   </body>

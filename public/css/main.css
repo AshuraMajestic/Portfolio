@@ -160,4 +160,37 @@ body {
 .row.main .contact .right button {
   margin-top: 3rem;
   width: 15rem;
-}/*# sourceMappingURL=main.css.map */
+}
+
+ @media only screen and (max-width:980px) {
+  .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row.main div h3,
+  .row.main div p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .row.main .contact .left .line {
+    height: 0.2rem;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0%;
+    border-radius: 1rem;
+  }  
+  .main .contact .address,
+  .main .contact .mail{
+    text-align: center;
+  }
+  .main .contact .address h4,
+  .main .contact .mail h4{
+    text-decoration: underline;
+  }
+ }
+
+
