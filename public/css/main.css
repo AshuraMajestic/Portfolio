@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
-@import url("https://fonts.cdnfonts.com/css/seasons");
-@import url("https://fonts.cdnfonts.com/css/tt-hoves-pro-trial");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+@font-face {
+  font-family: seasons;
+  src: url(../font/seasonregular.otf);
 }
 
 html,
@@ -44,24 +47,24 @@ body {
 }
 .row.main .second h3 {
   font-size: 5.5rem;
-  font-family: "seasons";
+  font-family: seasons;
   margin-bottom: 6rem;
 }
 .row.main .second p {
   font-size: 1.2rem;
-  font-family: "TT Hoves Pro Trial", sans-serif;
+  font-family: "TT Hoves Pro Trial";
 }
 .row.main .ashura {
   margin-top: 2rem;
 }
 .row.main .ashura h3 {
   font-size: 5.5rem;
-  font-family: "seasons";
+  font-family: seasons;
   margin-bottom: 6rem;
 }
 .row.main .ashura ul {
   list-style-image: url("../img/a.png");
-  font-family: "TT Hoves Pro Trial", sans-serif;
+  font-family: "TT Hoves Pro Trial";
 }
 .row.main .ashura ul li.head {
   font-size: 1.6rem;
@@ -78,7 +81,7 @@ body {
 }
 .row.main .fourth h3 {
   font-size: 5.5rem;
-  font-family: "seasons";
+  font-family: seasons;
   margin-bottom: 2rem;
 }
 .row.main .fourth .right {
@@ -106,7 +109,7 @@ body {
 .row.main .fourth .links ul li a {
   text-decoration: none;
   color: white;
-  font-family: "seasons";
+  font-family: seasons;
   font-size: 1.6rem;
 }
 .row.main .contact {
@@ -115,12 +118,12 @@ body {
 }
 .row.main .contact h3 {
   font-size: 5.5rem;
-  font-family: "seasons";
+  font-family: seasons;
   margin-bottom: 2rem;
 }
 .row.main .contact .left {
   position: relative;
-  font-family: "TT Hoves Pro Trial", sans-serif;
+  font-family: "TT Hoves Pro Trial";
 }
 .row.main .contact .left .line {
   height: 100%;
@@ -152,7 +155,7 @@ body {
   width: 20rem;
   text-align: center;
   height: 3rem;
-  font-family: "seasons";
+  font-family: seasons;
   font-weight: bolder;
   border: none;
   border-radius: 2rem;
